@@ -29,6 +29,12 @@ veg=Set(veg)
 nveg=Set(nveg)
 both=Set(both)
 
-print veg & nveg
+print nveg & both
 
 print c1,c2,c3,c4
+
+# Set(['Dum Ki Biryani', 'Chicken Wings', 'bbq chicken wings', 'Chicken Stroganoff', 'Garlic Bread', 
+# 	'Veg Sampler', 'malai kofta', 'murg tikka masala', 'Blueberry Cheesecake', 'Veg Mezze Platter', '
+# Strawberry Seduction', 'American Breakfast', 'Fish Fry', 'loaded nachos', 'chicken biryani', 'Fruit Beer', 
+# 'dahi kabab', 'Chilli Hot Dog', 'Pesto Pasta', 
+# 	'Hot Chocolate', 'Grilled Chicken Breast', 'Red Velvet Cupcake', 'Espresso Pan Fried Chicken Breast', 'galouti kebab

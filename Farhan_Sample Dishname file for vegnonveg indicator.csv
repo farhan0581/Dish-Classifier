@@ -287,7 +287,7 @@
 ,pulled pork melt,1,0
 ,sinful  chocolate pancakes,1,0
 ,mexican veg chilly bowl,1,0
-,bbq chicken wings,1,0
+,bbq chicken wings,0,1
 ,mexican lamb chilli bowl & cheese,0,1
 ,classic  grilled cheese overload,1,0
 ,classic chicken dog,0,1
@@ -324,8 +324,8 @@
 ,Diwan's mutton curry,0,1
 ,hara bhara kebabs,1,0
 ,mutton seekh kabab,0,1
-,malai kofta,0,1
-,murg tikka masala,1,0
+,malai kofta,1,0
+,murg tikka masala,0,1
 ,jodhpuri parantha,1,0
 ,ladjaki momos,1,1
 ,Thukpa,1,1
@@ -555,7 +555,7 @@
 ,Fried Rice,1,0
 ,Fried corn curd,1,0
 ,Barbeque Jumbo Prawns,0,1
-,Shrimp and Smoked Salmon Pizza,1,0
+,Shrimp and Smoked Salmon Pizza,0,1
 ,Molten Chocolate Cake,1,0
 ,Blueberry Cheese cake,1,0
 ,Palak and Dahi ke Kebab,1,0
@@ -838,7 +838,7 @@
 ,lemon grass chicken tikka,0,1
 ,lalla mussa dal,1,0
 ,dum gosht biryani,0,1
-,nizami tarkari biryani,1,0
+,nizami tarkari biryani,0,1
 ,lemon coriander clear soup,1,1
 ,Garlic Bread Plain,1,0
 ,White Sauce Pasta,1,1
@@ -1104,7 +1104,7 @@
 ,Chicken Biryani,0,1
 ,mutton biryani,0,1
 ,chicken korma,0,1
-,chicken biryani,1,0
+,chicken biryani,0,1
 ,chicken korma,0,1
 ,sheermal,1,0
 ,khameeri roti,1,0
@@ -1180,7 +1180,7 @@
 ,Chicken Burger,0,1
 ,Chilli Potato,1,0
 ,Veg Spring Roll,1,0
-,Garlic Bread ,1,1
+,Garlic Bread ,1,0
 ,White Sauce Pasta,1,1
 ,Chilli Paneer Dry,1,0
 ,Chicken Malai Tikka,0,1
@@ -1357,7 +1357,7 @@
 ,Aam ka Panna,1,0
 ,Veg Kebab Platter,1,0
 ,Paneer Tikka Pizza,1,0
-, Galouti Kebab,1,1
+, Galouti Kebab,0,1
 ,Gulab Jamun,1,0
 ,Chicken Biryani,0,1
 ,Murgh Tandoori,0,1
@@ -1671,7 +1671,7 @@
 ,classic vegetarian fajita's,1,0
 ,cajun club sandwich,0,1
 ,brownie sundae,1,0
-,shrimp fajita trio,1,0
+,shrimp fajita trio,0,1
 ,orleans jambalaya,0,1
 ,blackberry moji tea,1,0
 ,grilled chicken burger,0,1
@@ -1900,7 +1900,7 @@
 ,Rasmalai Tres Leches,1,0
 ,Karela Calamari,1,0
 ,Litchi Panna,1,0
-,rice noodle chicken biryani,1,0
+,rice noodle chicken biryani,0,1
 ,Tempura Fried Prawns,1,0
 ,Margherita Kulcha,1,0
 ,Tomato Soup,1,0
@@ -2068,7 +2068,7 @@
 ,Dahi ke Kebab,1,0
 ,Paneer Tikka Multani,1,0
 ,Lunch Buffet,1,1
-,Dum Ki Biryani,1,0
+,Dum Ki Biryani,0,1
 ,tandoori guchchi,1,0
 ,Dum Ki Biryani/ Chicken,0,1
 ,Khaam Khatai (Mutton Galouti),0,1
@@ -2256,8 +2256,8 @@
 ,Tripple Decker,1,0
 ,Chicken Salt & Pinl Peeper,1,0
 ,Crunchy Chilly Chicken,1,0
-,Veg Mezze Platter,0,1
-,Veg Sampler,0,1
+,Veg Mezze Platter,1,0
+,Veg Sampler,1,0
 ,Chicken Sui Mai Dimsums,1,0
 ,Chilly Potato,1,0
 ,General Tso's Dumplings,0,1
@@ -2267,14 +2267,14 @@
 ,Grilled Prawn with garlic Bread,1,0
 ,Green Apple Iced Tea,1,0
 ,Divine Chocolate Cake,1,0
-,Garlic Bread,1,1
-,Blueberry Cheesecake,0,1
+,Garlic Bread,1,0
+,Blueberry Cheesecake,1,0
 ,Peri peri chicken pizza,0,1
 ,Virgin Sangria,1,0
 ,Ferrero Rocher shake,1,0
 ,Penne alfredo,1,0
 ,Honey Chilly Potato,1,0
-,Hot Chocolate,0,1
+,Hot Chocolate,1,0
 ,Cheese Baked Nachos,1,0
 ,Veggie Attack Pizza,1,0
 ,Dark Lord,1,0
@@ -2290,10 +2290,10 @@
 ,Chicken Shawarma platter,1,0
 ,Mexican Pizza,0,1
 ,Baked Veggie Lasagna,1,0
-,Chicken Wings,1,0
+,Chicken Wings,0,1
 ,Penne Arrabiata,1,0
 ,Four season Pizza,0,1
-,Fruit Beer,0,1
+,Fruit Beer,1,0
 ,Mexican Salad,1,0
 ,Chilly Garlic Noodles,0,1
 ,Penne Vodka Pasta,1,0
@@ -2306,10 +2306,10 @@
 ,Cold coffee,1,0
 ,Kamakze Spritzer,1,0
 ,Carabian Delight,0,1
-,Chicken Stroganoff,1,0
+,Chicken Stroganoff,0,1
 ,Juicy Lucy Burger,1,0
 ,Chilly Cheese Quesidilla,1,0
-,Chicken Caesar Salad,1,0
+,Chicken Caesar Salad,0,1
 ,Chilly Paneer,1,0
 ,Belgian Waffles,0,1
 ,Chicken and Mushroom Burger,1,0
@@ -2325,7 +2325,7 @@
 ,Fresh Juice,0,1
 ,the ultimate omelette,0,1
 ,Fresh Juice,0,1
-,Grilled Chicken Breast,1,0
+,Grilled Chicken Breast,0,1
 ,Brownie Blast,0,1
 ,Watermelon Juice,1,0
 ,Chilli Bean Burger,1,0
@@ -2339,8 +2339,8 @@
 ,Run & Rasin Cheese Cake,1,0
 ,Penne Pasta in Pesto Sauce,1,0
 ,Banana Split,0,1
-,Garlic Bread,0,1
-,Fish Fry,1,0
+,Garlic Bread,1,0
+,Fish Fry,0,1
 ,Cream of Mushroom,1,0
 ,The Classic Hot Dog,0,1
 ,Lime Pie,0,1
@@ -2359,7 +2359,7 @@
 ,Veg Steak,0,1
 ,Veg Pot Pie,0,1
 ,Pork Sausages,0,1
-,Buffalo Chicken Wings,1,0
+,Buffalo Chicken Wings,0,1
 ,Affagato,0,1
 ,Creamy Mushroom Stuffed Omelete,1,0
 ,Caesar Salad,1,0
@@ -2378,7 +2378,7 @@
 ,Macho Nacho,1,0
 ,Vanilla Frapachino,1,0
 ,Cheese Fondue,1,0
-,Strawberry Seduction,0,1
+,Strawberry Seduction,1,0
 ,Apple Pie,1,0
 ,Berry Pulao,0,1
 ,Vada Pav,1,0
@@ -2478,7 +2478,7 @@
 ,tandoori roti,1,0
 ,murgh tandoori,0,1
 ,meat punjabi  by nature,0,1
-,galouti kebab,1,0
+,galouti kebab,0,1
 ,murgh malai kebab,0,1
 ,romali roti,1,0
 ,paneer makhani,1,0
@@ -2519,7 +2519,7 @@
 ,chilli cheese dragons,1,0
 ,chicken burger,0,1
 ,gastro burger,0,1
-,loaded nachos,0,1
+,loaded nachos,1,0
 ,copper monkey,1,0
 ,mushroom bruschetta,1,0
 ,kheema bao,0,1
@@ -2615,7 +2615,7 @@
 ,Kadak Papad Kebab,1,0
 ,Wild Mushroom Cappuccino,1,0
 ,Poached Red Wine Pear,1,0
-,Espresso Pan Fried Chicken Breast,1,0
+,Espresso Pan Fried Chicken Breast,0,1
 ,Tandoori Quail,0,1
 ,Paand and Gulukand Mojito,1,0
 ,Wasabi Chicken Tikka,0,1
@@ -3225,7 +3225,7 @@
 ,Makhani Dal,1,0
 ,Murg Tikka Lababdar,0,1
 ,Dal Sultani,1,0
-,Nizami Tarkari Biryani,1,1
+,Nizami Tarkari Biryani,0,1
 ,Deghi Mirch ka Paneer Tikka,1,0
 ,Amritsari Tali Machchi,0,1
 ,Laal Maas,0,1
@@ -3307,7 +3307,7 @@
 ,Chocolate Chunk Muffin,0,1
 ,Portioned Cream Cheese,1,0
 ,Iced Tea,1,0
-,Red Velvet Cupcake,0,1
+,Red Velvet Cupcake,1,0
 ,Chicken & Swiss Sandwich,0,1
 ,Tuna Melt Sandwich,0,1
 ,Orange Juice,1,0

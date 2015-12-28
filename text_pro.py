@@ -12,10 +12,15 @@ from numpy import array
 handle=open('Farhan_Sample Dishname file for vegnonveg indicator.csv','rt')
 reader=csv.DictReader(handle)
 
+#training data
 full_set=[]
+#response matrix
 response_full=[]
+#count of veg dishes
 c1=0
+#count of non-veg dishes
 c2=0
+#dish which is both veg and non-veg
 c3=0
 
 for line in reader:
@@ -37,41 +42,47 @@ response_full=array(response_full)
 # print response_full.shape
 
 
-
+#building the vocabulary from the words of dishes
 count_vectorizer = CountVectorizer(stop_words='english')
 full_set_fit=count_vectorizer.fit_transform(full_set)
 # print full_set_fit.shape
 
+#finding the term frequency
 tfidf_transformer = TfidfTransformer()
 full_set_fit_tfidf = tfidf_transformer.fit_transform(full_set_fit)
-full_set_fit_tfidf.shape
+
+
+#splitting the dataset into train and test
 X_train, X_test, y_train, y_test=train_test_split(full_set_fit_tfidf,response_full,test_size=0.3)
 
 
-#training on the training dataset
+#training on the training dataset naeive baiyes
 clf = MultinomialNB().fit(X_train, y_train)
+
+#training using k neighbour
 knn=KNeighborsClassifier(n_neighbors=5)
 
 
-#k-fold
+#k-fold testing on the dataset
 clf_kfold=MultinomialNB().fit(full_set_fit_tfidf, response_full)
+
 scores=cross_val_score(clf_kfold,full_set_fit_tfidf,response_full,cv=10,scoring='accuracy')
+print scores
 print 'mean score='+str(scores.mean()*100)
 
 
-docs_new = ['fish rice', 'shrimp curry','fish fry','chily chicken','dal punjabi',
-				'chicken ghar par bana','Fried Rice']
+#testing on some new dataset
+docs_new = ['fish rice', 'shrimp curry','fish fry','chily chicken','dal punjabi','bhaji tarkari',
+				'murg musallam','Fried Rice','birthday cake','mutton curry','lamb champ']
 
-docs_new = count_vectorizer.transform(docs_new)
-docs_new_tfidf = tfidf_transformer.transform(docs_new)
+docs_new_s = count_vectorizer.transform(docs_new)
+docs_new_tfidf = tfidf_transformer.transform(docs_new_s)
 
 predicted = clf.predict(X_test)
 knn.fit(X_train,y_train)
 
 knn_predict=knn.predict(X_test)
 
-# # for doc, category in zip(docs_new, predicted):
-# 	# print('%r => %s' % (doc, twenty_train.target_names[category]))
 
 accuracy=metrics.accuracy_score(y_test,predicted)
 
@@ -82,18 +93,22 @@ print accuracy_knn*100
 
 doc_pre=clf.predict(docs_new_tfidf)
 
-print doc_pre
+print "======================================="
+for i in range(len(docs_new)):
+	if doc_pre[i]==1:
+		print docs_new[i]+"--> Veg"
+	elif doc_pre[i]==0:
+		print docs_new[i]+"--> Non Veg"
 
-precision=metrics.precision_score(y_test, predicted)
-recall=metrics.recall_score(y_test, predicted)
+print "========================================"
 
-print recall
-print precision
+# precision=metrics.precision_score(y_test, predicted)
+# recall=metrics.recall_score(y_test, predicted)
+# print recall
+# print precision
+
 
 # print "Vocabulary:", count_vectorizer.vocabulary_
-
 # count_vectorizer.get_feature.names()
-
 # freq_term_matrix = count_vectorizer.transform(train_set)
-
 # print freq_term_matrix.todense()
